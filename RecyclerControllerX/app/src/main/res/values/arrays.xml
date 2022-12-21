@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modo_juego">
+        <item>SIEMPRE</item>
+        <item>NUNCA</item>
+    </array>
+
+    <array name="duracion_juego">
+        <item>MANANA</item>
+        <item>TARDE</item>
+        <item>NOCHE</item>
+
+
+    </array>
+
+    <array name="duracion_palabra">
+        <item>1/2 Segundos</item>
+        <item>1 Segundo</item>
+        <item>2 Segundos</item>
+    </array>
+
+    <string-array name="tema">
+        <item>CIRCULAR</item>
+        <item>RECTANGULAR</item>
+    </string-array>
+
+    <string-array name="combo_resultados">
+        <item>Individual</item>
+        <item>Lista de Jugadores</item>
+    </string-array>
+
+    <string-array name="combo_nivel">
+        <item>Facil</item>
+        <item>Medio</item>
+    </string-array>
+
+
+</resources>

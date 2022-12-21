@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Material:"
+                android:textColor="#2C780B"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textDocumento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bolsa de plastico"
+                android:textColor="#2C780B"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo:"
+                android:textColor="#2C780B"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bolsa Plastico"
+                android:textColor="#2C780B"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cantidad:"
+                android:textColor="#2C780B"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2C780B"
+                android:text="3"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

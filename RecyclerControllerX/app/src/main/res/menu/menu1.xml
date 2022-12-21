@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuFragmento1"
+        android:icon="@drawable/agregar2_foreground"
+        android:title="Agregar Material" />
+    <item
+        android:id="@+id/menuFragmento2"
+        android:icon="@drawable/registro2_foreground"
+        android:title="Registro Diario" />
+    <item
+        android:id="@+id/menuFragmento3"
+        android:icon="@drawable/estadistica2_foreground"
+        android:title="Estadisticas" />
+</menu>

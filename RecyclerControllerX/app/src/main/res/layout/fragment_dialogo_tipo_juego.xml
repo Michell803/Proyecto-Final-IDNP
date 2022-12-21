@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Dialogos.DialogoTipoJuegoFragment">
+
+    <LinearLayout
+        android:id="@+id/barraSuperiorId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAjustes"
+        android:elevation="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Seleccione accion a realizar"
+            android:textColor="@color/colorBlanco"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/btnSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/ic_cerrar3"
+            android:text="Salir" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardFacil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                card_view:cardBackgroundColor="@color/colorBlanco"
+                card_view:cardUseCompatPadding="true"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imgVersion"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@mipmap/ic_empezar" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/tvNombre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Organizar tu Consumo diario"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_marginTop="5dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Organiza e ingresa los residuos que utilizas en tu dia a dia."
+                            android:textSize="13dp"
+                            android:layout_marginRight="20dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:text="Registrate"
+                        android:src="@mipmap/ic_adelante"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/imageButton"
+                        android:layout_marginRight="0dp"
+                        android:layout_alignBottom="@+id/linearLayout"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardMedio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                card_view:cardBackgroundColor="@color/colorBlanco"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imgVersion2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@mipmap/ic_anadir" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/tvNombre2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Crear un material Propio"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_marginTop="5dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvInfo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Si no existe algun material de nuestra lista de residuos, puedes crear la de tu preferencia "
+                            android:textSize="13dp"
+                            android:layout_marginRight="20dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:text="Registrate"
+                        android:src="@mipmap/ic_adelante"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/imageButton2"
+                        android:layout_marginRight="0dp"
+                        android:layout_alignBottom="@+id/linearLayout"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

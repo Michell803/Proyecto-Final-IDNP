@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="JUEGO">
+        <ListPreference
+            android:key="modoJuego"
+            android:title="Notificaciones"
+            android:summary="Elije si deseas recibir notificaciones o no"
+            android:entries="@array/modo_juego"
+            android:icon="@mipmap/ic_modo"
+            android:entryValues="@array/modo_juego" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="PERSONALIZAR">
+
+        <ListPreference
+            android:key="tiempoJuego"
+            android:title="Modificar Espacios de Tiempo"
+            android:summary="Seleccione los espacios temporales que desee registrar"
+            android:entries="@array/duracion_juego"
+            android:entryValues="@array/duracion_juego"
+            android:icon="@mipmap/ic_duracion" />
+
+
+
+        <EditTextPreference
+            android:key="NumeroDeIntentos"
+            android:summary="Indique el modo que se deben mostrar los perfiles"
+            android:maxLength="5"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:icon="@mipmap/ic_users"
+            android:title="Modificar Vista de  Perfiles" />
+
+        <PreferenceScreen
+            android:title="Cambiar Tema"
+            android:icon="@mipmap/ic_tema"
+            android:summary="Personaliza los colores y el diseño de la aplicación">
+
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="INFORMACIÓN">
+        <PreferenceScreen
+            android:title="Acerca De..."
+            android:icon="@mipmap/ic_juego2"
+            android:summary="Conoce más sobre el desarrollador">
+
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
